@@ -2,7 +2,7 @@
 A fun little TicTacToe game : )
 
 Description:
-This is a simple TicTacToe app built for PrevailHealth interview task.
+This is a simple TicTacToe app.
 
 Model:
 The TicTacToe model is composed of Piece, Board, Player, and TicTacToeGame
