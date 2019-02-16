@@ -1,9 +1,6 @@
 # TicTacToe
 A fun little TicTacToe game : )
 
-Description:
-This is a simple TicTacToe app.
-
 Model:
 The TicTacToe model is composed of Piece, Board, Player, and TicTacToeGame
 structs. A Piece belongs to certain Player (usually X or O). A Board is a 2D
@@ -15,6 +12,9 @@ View:
 To create the view, I kept things simple. I used an image view for the board,
 and a series of buttons (in 3 horzintal and 1 vertical stack views) for the
 X,O placements.
+
+Controller:
+The controller manages communcation between the model and the view.
 
 Unit Tests:
 This project also contains unit tests (found in "TicTacToeTests" folder) which
