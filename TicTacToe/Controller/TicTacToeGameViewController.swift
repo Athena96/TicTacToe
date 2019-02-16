@@ -54,7 +54,7 @@ class TicTacToeGameViewController: UIViewController {
      - Parameter animated: animated or not
      */
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
+        super.viewDidAppear(false)
 
         // init new game
         game = TicTacToeGame(players: ["X","O"], boardSize: 3)
@@ -132,7 +132,7 @@ class TicTacToeGameViewController: UIViewController {
     func alert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
+        self.present(alert, animated: false, completion: nil)
     }
     
     /**
@@ -147,7 +147,7 @@ class TicTacToeGameViewController: UIViewController {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
         alert.addAction(UIAlertAction(title: "cancel", style: .default, handler: restartHandler ?? nil))
         alert.addAction(UIAlertAction(title: "restart", style: .default, handler: restartHandler ?? nil))
-        self.present(alert, animated: true, completion: nil)
+        self.present(alert, animated: false, completion: nil)
     }
     
     
