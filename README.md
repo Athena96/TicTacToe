@@ -29,3 +29,8 @@ asks if they wish to restart the game or not.
 
 (This app will also work on any device size)
 
+<b>Game Play</b>
+<img src="https://github.com/Athena96/TicTacToe/blob/master/GamePlay.png" width="300">
+
+<b>Win Scenario</b>
+<img src="https://github.com/Athena96/TicTacToe/blob/master/WinScenario.png" width="300">
